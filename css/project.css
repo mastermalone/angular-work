@@ -1,0 +1,15 @@
+
+#main, footer {
+ width:350px;
+ margin:20px auto;
+}
+#main .product{
+	padding:15px;
+	margin-bottom:10px;
+	border:solid 1px #cccccc;
+	border-radius:10px;
+}
+#main .product h1{
+	margin:0px 0px 10px;
+	font-size:30px;	
+}
