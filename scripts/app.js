@@ -35,7 +35,7 @@
 		this.current = 0; 
 		this.setCurrent = function(selectedImg){
 			this.current = !selectedImg ? this.current = 0 : this.current = selectedImg;
-		}
+		};
 	});
 	
 	//Mock Data.  This will be an AJAX call in most cases
@@ -97,6 +97,6 @@
 			canPurchase: true,
 			soldOut: false
 		}	
-	]
+	];
 })();
 
